@@ -34,3 +34,6 @@ L:\Niraj\Kistler\kistlerDev\KVConsoleTest\bin\Debug\TBSeed.pdb
 L:\Niraj\Kistler\kistlerDev\KVConsoleTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
 L:\Niraj\Kistler\kistlerDev\KVConsoleTest\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
 L:\Niraj\Kistler\kistlerDev\KVConsoleTest\obj\Debug\KVConsoleTest.csprojResolveAssemblyReference.cache
+C:\Projects\ECommerce-master\KVConsoleTest\bin\Debug\KVConsoleTest.exe.config
+C:\Projects\ECommerce-master\KVConsoleTest\obj\Debug\KVConsoleTest.exe
+C:\Projects\ECommerce-master\KVConsoleTest\obj\Debug\KVConsoleTest.pdb

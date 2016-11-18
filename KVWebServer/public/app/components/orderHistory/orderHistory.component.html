@@ -1,0 +1,29 @@
+<div class="container mainContainer">
+    <h2>Order history</h2>
+    <div class="panel panel panel-default kistlarOderHistory">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Invoice</th>
+                    <th>Order Summary</th>
+                    <th>Amount</th>
+                    <th>&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr  *ngFor="let order of orderHeaders" (click)="showDetails(order.id)">
+                    <td scope="row">{{order.mDate | date:'MM/dd/yyyy'}}</td>
+                    <td><a href="">{{order.invoice}}</a></td>
+                    <td>{{order.descr}}</td>
+                    <td>{{order.amount | currency:'USD':true}}</td>
+                    <td><a href="">View Details</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    </div>
+
+

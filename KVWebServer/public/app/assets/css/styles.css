@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700');
+
+body{
+    font-family: 'Josefin Slab', serif;
+    background-color: #f5f2eb;
+    font-weight: 600;
+    
+}
+a {
+    color: #7a412d;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #7a412d;
+    text-decoration: underline;
+}
+
+
+
+.bg-navKistler {
+ background-color: #3f3011; 
+}
+
+
+.form-signin {
+  max-width: 450px;
+  padding: 15px 35px 45px;
+  margin:5% auto 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1); 
+}
+
+.loginTextCenter{ text-align: center; margin-bottom: 10px; color: #a75b02;}
+.loginSummText{ margin-bottom: 10px; text-align: center;}
+
+
+.btn-kistler{
+    color: #fff;
+    background-color: #7a412d;
+    border-color: #6a3826;
+}
+.btn-kistler:hover {
+    color: #fff;
+    background-color: #663625;
+    border-color: #763721;
+}
+.forgotPassword{ margin-left:10px; }
+.loginFooter{ padding-top: 15px; border-top:solid 2px #dcdddb; padding-bottom: 15px;}
+.join-mailingList{ padding-bottom:15px;}
+.join-mailingList a{ font-weight:bold; font-size:1.2em;}
+
+.signInPanel{ padding-bottom:20px;}
+.mainContainer{padding-top: 0px;}
+.introText{ margin-bottom:20px; padding:20px; background-color:#f5f2eb; border:solid 1px #ddd; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,f5f2e9+100 */
+background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcfcfc 0%, #f5f2e9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcfcfc 0%,#f5f2e9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcfcfc 0%,#f5f2e9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f5f2e9',GradientType=0 ); /* IE6-9 */
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px; 
+
+}
+.introText .welcomeTxt{ font-size:1.2em; margin-bottom:1px;}
+.introText .welcomeTxt .username{ color:#a65a02;}
+
+.boxPanel .boxdivider{border-bottom:solid 1px #ddd; margin-bottom:10px; padding-bottom:10px;}
+.orderWith{ width:60px; display:inline-block;}
+.boxPanel .productTitle{font-size:1.2em;}
+.productPrice{ color: #94070d; }
+.requestPanel{padding:15px 0px;}
+.requestPanel .btn{ text-align: right;}
+
+.hidefieldvalidationMsg{display: none; }
+.showfieldvalidationMsg{color: #94070d; display:block; }
+
+
+.Loadbox{ width: 40px; height: 40px; margin-left:-20px; margin-top:-20px; top:50%; left:50%; position: absolute; background-image:url(Preloader.gif); background-repeat: no-repeat;}
+.navbar{-webkit-border-radius: 0 0 0 0;
+border-radius: 0 0 0 0;}
+
+.bg-navKistler > .active > a, .bg-navKistler > .active > a:hover, .bg-navKistler > .active > a:focus {
+    background-color: #7a412d;
+    color: #fff;
+}
+
+
+.profilepage{padding:20px; background-color:#fff; border:solid 1px #ddd; }
+
+.kistlarOderHistory{ background-color:#fff;}
+.kistlarOderHistory th {
+    color: #fff;
+    background-color: #3f3011;
+    border-color: #ddd;
+}
+
+
+.kistlarShippingAddress .panel-heading{ color: #fff;
+    background-color: #3f3011;
+    border-color: #ddd;}
+.kistlarShippingAddress  .divierBar{ border-bottom:solid 1px #ddd; padding:10px 0px;}
+.panelAddSubmit { padding:10px;} 
+.paymentMethDivider{ border-bottom:solid 1px #ddd; padding:10px 0px;}
+.cardName{ color:#a75b02; font-weight:700;}
+.AddCardPanel{ padding:10px;}
+.AddCardPanelForm { padding-bottom:20px;
+}

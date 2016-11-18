@@ -1,0 +1,65 @@
+<div class="container mainContainer">
+    <h2>Order</h2>
+    <div class="introText boxPanel">
+        <div class="welcomeTxt">Welcome <label class="username"> ipsum</label></div>
+        <summary>{{staticTexts.introText}}</summary>
+    </div>
+ <div class="panel-group" id="accordion">
+    <div class="panel panel-default" *ngFor="let order of orders">
+      <div class="panel-heading">
+
+           <div class="row">
+                <div class="col-sm-4 productTitle">
+                   
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{order.Id}}">{{order.Item }}</a>
+               
+                </div>
+                <div class="col-sm-1 col-xs-4"><a data-toggle="collapse" data-parent="#accordion" href="#collapse{{order.Id}}" >Tasting Notes</a></div>
+                <div class="col-sm-1 col-xs-4"><span class="productPrice">${{order.Price}}</span>/{{order.Packing =='b' ? 'Btl' : 'Pkg'}}</div>
+                <div class="col-sm-2 col-xs-4">Avail: {{order.AvailableQty}} {{order.Packing =='b' ? 'Btls' : 'Pkg'}}</div>
+                <div class="col-sm-2 col-xs-6 ">
+                    <span>Request: </span><input class="form-control orderWith" type="number" min="1" [(ngModel)]="order.OrderQty">
+                </div>
+                <div class="col-sm-2 col-xs-6 ">Wish List: <input class="form-control orderWith" type="number" min="1" [(ngModel)]="order.WishList"></div>
+            </div>
+      </div>
+      <div id="collapse{{order.Id}}" class="panel-collapse collapse">
+        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+
+  </div>
+  <!--  
+    <div class="panel panel-default">
+        <div class="panel-body boxPanel">
+            <div class="row boxdivider" *ngFor="let order of orders">
+                <div class="col-sm-4 productTitle">
+                    <a href="#">{{order.Item }}</a>
+                </div>
+                <div class="col-sm-1 col-xs-4"><a href='#'>Review</a></div>
+                <div class="col-sm-1 col-xs-4"><span class="productPrice">${{order.Price}}</span>/{{order.Packing =='b' ? 'Btl' : 'Pkg'}}</div>
+                <div class="col-sm-2 col-xs-4">Avail: {{order.AvailableQty}} {{order.Packing =='b' ? 'Btls' : 'Pkg'}}</div>
+                <div class="col-sm-2 col-xs-6 ">
+                    <span>Request: </span><input class="form-control" type="number" min="1" [(ngModel)]="order.OrderQty">
+                </div>
+                <div class="col-sm-2 col-xs-6 ">Wish List: <input class="form-control" type="number" min="1" [(ngModel)]="order.WishList"></div>
+            </div>
+        </div>
+    </div>
+-->
+
+        <div class="row requestPanel">
+            <div class="checkbox col-sm-10">
+                <label><input type="checkbox" value=""> {{staticTexts.holidayGift}}</label>
+            </div>
+            <div class="col-sm-2">
+                <button (click)="request()" class="btn btn-md btn-kistler pull-right">Request</button>
+            </div>
+        </div>
+        <label>{{staticTexts.minimumRequest}}</label>
+        <div><label>{{staticTexts.bottomNotes}}</label></div>
+
+    <!--   <a routerLink='/change/password'>Change password</a>--> 
+</div>

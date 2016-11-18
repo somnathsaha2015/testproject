@@ -1,0 +1,36 @@
+<p>{{approveHeading}}</p>
+
+<form class="form-horizontal">
+  
+  <div class="form-group">
+    <div>Shipping Address</div>
+    <div class="col-sm-3">
+      {{defaultAddress.address1}}, {{defaultAddress.zip}}, {{defaultAddress.city}}, {{defaultAddress.street}}
+    </div>
+    <button type="button" class="col-sm-1" (click)="changeDefaultAddr()">Change</button>
+  </div>
+
+  <div class="form-group">
+      <p>Payment method</p>
+      <div class="col-sm-3">
+        
+      </div>
+
+  </div>
+</form>
+<div class="row">
+  <modal #myModal>
+    <modal-header>
+      <h1>Select a shipping address</h1>
+    </modal-header>
+    <modal-content>
+      <div class="form-group" *ngFor="let address of allAddresses; let i=index">
+        <input type="radio" [checked]="address.isDefault" (click)=setDefault(address) name="isDefault"> {{address.address1}},
+        {{address.street}}, {{address.city}}, {{address.zip}}
+      </div>
+    </modal-content>
+    <modal-footer>
+      <button class="btn btn-primary" (click)="myModal.close()">close</button>
+    </modal-footer>
+  </modal>
+</div>

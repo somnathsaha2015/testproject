@@ -1,0 +1,70 @@
+//pages
+1. Approval
+2. Receipt
+3. Order History
+4. User simulate for placing order
+7. validations framework and result of a query framework
+8. current tab disable
+
+
+https://shop.threestickswines.com/account.html
+waltdp@msn.com: Netwoven1
+
+//
+1. Accordian
+2. Different offer for different customer
+
+//updated from Tanmoy
+1. login
+2. order
+
+//New component steps
+1. Create .component.ts
+2. Create .html.ts
+3. app.module.ts
+4. app.router.ts
+5. config.ts: ViewBox for top menu
+
+6. If secured then provide LoginGuard in router.ts
+
+//Blank Component
+import { Component } from '@angular/core';
+import { Subscription } from 'rxjs/subscription';
+import { AppService } from '../../services/app.service';
+
+@Component({
+    templateUrl: 'app/components/*****/****.component.html'
+})
+export class ***** {
+   
+    subscription: Subscription;
+    constructor(private appService: AppService) {
+        
+    };
+    
+    ngOnDestroy() {
+        //this.subscription.unsubscribe();
+    };
+}
+
+
+
+Status codes
+200: OK
+201: Created
+202: accepted
+204: No Content
+
+400: Bad request
+401: Unauthorised, Actually authentication failure
+402: Payment required
+403: Forbidden, Actually Authorization failure
+404: Not Found
+405: Method Not Allowed
+406: Not Acceptable
+
+500: Internal server error
+501: Not Implemented
+502: Bad Gateway
+503: Service Unavailable
+520: Unknown error

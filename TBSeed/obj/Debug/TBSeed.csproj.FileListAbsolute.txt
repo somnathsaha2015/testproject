@@ -1,0 +1,12 @@
+F:\Niraj\Kistler\kistlerDev\TBSeed\obj\Debug\TBSeed.SqlTemplate.resources
+F:\Niraj\Kistler\kistlerDev\TBSeed\obj\Debug\TBSeed.csproj.GenerateResource.Cache
+F:\Niraj\Kistler\kistlerDev\TBSeed\bin\Debug\TBSeed.dll
+F:\Niraj\Kistler\kistlerDev\TBSeed\bin\Debug\TBSeed.pdb
+F:\Niraj\Kistler\kistlerDev\TBSeed\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Niraj\Kistler\kistlerDev\TBSeed\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Niraj\Kistler\kistlerDev\TBSeed\bin\Debug\Newtonsoft.Json.dll
+F:\Niraj\Kistler\kistlerDev\TBSeed\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\Niraj\Kistler\kistlerDev\TBSeed\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\Niraj\Kistler\kistlerDev\TBSeed\obj\Debug\TBSeed.dll
+F:\Niraj\Kistler\kistlerDev\TBSeed\obj\Debug\TBSeed.pdb
+F:\Niraj\Kistler\kistlerDev\TBSeed\obj\Debug\TBSeed.csprojResolveAssemblyReference.cache
